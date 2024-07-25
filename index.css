@@ -13,7 +13,7 @@ h3{
 .flex-container {
   box-sizing: border-box;
   background-color: white;
-  width: 50%;
+  width: 90%;
   margin: 100px auto;
   border-radius: 10px;
   height: 100%;
@@ -28,7 +28,9 @@ img{
   
 }
 .section{
+  box-sizing: border-box;
   border-radius: 5px;
+  width: 100%;
   background-color: rgb(254, 232, 234);
   padding: 10px;
   margin: 10px;
@@ -53,8 +55,8 @@ td{
   text-align: left;
   padding: 10px;
 }
-@media screen and (max-width: 800px) {
-  div{ 
+@media screen and (max-width: 600px) {
+  div,iframe,section { 
     width: 100%
   }
 }
